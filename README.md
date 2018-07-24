@@ -4,7 +4,7 @@ My posh
 Clone repository
 
 ```bash
-git clone https://github.com/0v3lh4/poshfiles.git ~\Documents\WindowsPowerShell
+git clone https://github.com/0v3lh4/poshfiles.git $HOME\Documents\WindowsPowerShell
 ```
 
 Install posh-git and oh-my-posh:
