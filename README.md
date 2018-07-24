@@ -13,6 +13,7 @@ Install posh-git and oh-my-posh:
 Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
 Install-Module z -Scope CurrentUser -AllowClobber
+Install-Module posh-alias -Scope CurrentUser
 ```
 
 [nerdfonts]: Meslo LG M Regular for Powerline Nerd Font
