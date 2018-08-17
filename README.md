@@ -7,6 +7,11 @@ Clone repository
 git clone https://github.com/0v3lh4/poshfiles.git $HOME\Documents\WindowsPowerShell
 ```
 
+Enable Execution Scripts PowerShell Local Machine
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+```
+
 Install posh-git and oh-my-posh:
 
 ```bash
