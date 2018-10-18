@@ -10,6 +10,9 @@ My posh
 - Install Meslo LG M Regular for Powerline Nerd Font
 - Install SauceCodePro Nerd Font Mono
 
+### Import ConEmu.xml
+
+- Settings -> Import
 
 ### Clone repository
 
