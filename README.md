@@ -11,18 +11,18 @@ My posh
 - Install SauceCodePro Nerd Font Mono
 
 
-Clone repository
+### Clone repository
 
 ```bash
 git clone https://github.com/0v3lh4/poshfiles.git $HOME\Documents\WindowsPowerShell
 ```
 
-Enable Execution Scripts PowerShell Local Machine
+### Enable Execution Scripts PowerShell Local Machine
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```
 
-Install posh-git and oh-my-posh:
+### Install posh-git and oh-my-posh:
 
 ```bash
 Install-Module posh-git -Scope CurrentUser
