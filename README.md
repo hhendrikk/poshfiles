@@ -35,4 +35,5 @@ Install-Module posh-alias -Scope CurrentUser
 Install-Module 7Zip4Powershell -Scope CurrentUser
 Install-Module PSUtil -Scope CurrentUser
 Install-Module PSReadline -Scope CurrentUser
+Install-Module Get-ChildItemColor -Scope CurrentUser
 ```
