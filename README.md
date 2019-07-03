@@ -17,7 +17,7 @@ My posh
 ### Clone repository
 
 ```bash
-git clone https://github.com/0v3lh4/poshfiles.git $HOME\Documents\WindowsPowerShell
+git clone https://github.com/hhendrikk/poshfiles.git $HOME\Documents\WindowsPowerShell
 ```
 
 ### Enable Execution Scripts PowerShell Local Machine
