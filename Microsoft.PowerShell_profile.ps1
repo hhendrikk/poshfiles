@@ -4,7 +4,7 @@ Import-Module z
 Import-Module posh-alias
 Import-Module Get-ChildItemColor
 
-Set-Theme Honukai
+Set-Theme Paradox
 
 $env:LC_ALL='C.UTF-8'
 
