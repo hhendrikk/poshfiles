@@ -55,7 +55,7 @@ module.exports = {
     fontSize: 14,
 
     // font family with optional fallbacks
-    fontFamily: '"FuraCode Nerd Font"',
+    fontFamily: '"Victor Mono"',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -105,7 +105,7 @@ module.exports = {
     //
     // PowerShell on Windows
     // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
-    shell: 'C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe',
+    shell: 'C:\\Program Files\\PowerShell\\6\\pwsh.exe',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
@@ -134,7 +134,7 @@ module.exports = {
 
     // Whether to use the WebGL renderer. Set it to false to use canvas-based
     // rendering (slower, but supports transparent backgrounds)
-    webGLRenderer: true,
+    webGLRenderer: false,
 
     // for advanced config flags please refer to https://hyper.is/#cfg
   },
