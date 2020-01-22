@@ -5,9 +5,9 @@ My posh
 
 [Install HyperJS](https://hyper.is/#installation)
 
-[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+[Victor Mono](https://rubjo.github.io/victor-mono)
 
-- FuraCode Nerd Font
+- Victor Mono
 
 ### Clone repository
 
@@ -30,7 +30,7 @@ Install-Module posh-alias -Scope CurrentUser
 Install-Module 7Zip4Powershell -Scope CurrentUser
 Install-Module PSUtil -Scope CurrentUser
 Install-Module PSReadline -Scope CurrentUser
-Install-Module Get-ChildItemColor -Scope CurrentUser
+Install-Module Get-ChildItemColor -Scope CurrentUser -AllowClobber
 ```
 
 ### Config hyperJS
@@ -48,6 +48,8 @@ module.exports = {
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
     updateChannel: 'stable',
+
+    opacity: 0.96,
 
     // default font size in pixels for all tabs
     fontSize: 14,
