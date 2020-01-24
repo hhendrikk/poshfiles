@@ -26,7 +26,6 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
 Install-Module z -Scope CurrentUser -AllowClobber
-Install-Module posh-alias -Scope CurrentUser
 Install-Module 7Zip4Powershell -Scope CurrentUser
 Install-Module PSUtil -Scope CurrentUser
 Install-Module PSReadline -Scope CurrentUser
