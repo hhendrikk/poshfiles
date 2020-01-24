@@ -17,6 +17,7 @@ git clone --depth=1  https://github.com/hhendrikk/poshfiles.git $HOME\Documents\
 
 ### Enable Execution Scripts PowerShell Local Machine
 ```bash
+Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```
 
