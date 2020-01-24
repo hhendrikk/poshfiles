@@ -12,7 +12,7 @@ My posh
 ### Clone repository
 
 ```bash
-git clone https://github.com/hhendrikk/poshfiles.git $HOME\Documents\PowerShell
+git clone --depth=1  https://github.com/hhendrikk/poshfiles.git $HOME\Documents\PowerShell
 ```
 
 ### Enable Execution Scripts PowerShell Local Machine
