@@ -1,10 +1,8 @@
-Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module z
-Import-Module posh-alias
 Import-Module Get-ChildItemColor
 
-Set-Theme Paradox
+Set-Theme Honukai
 
 $env:LC_ALL='C.UTF-8'
 
