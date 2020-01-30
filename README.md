@@ -1,5 +1,6 @@
 My posh
 ==========
+[Install Chocolately](https://chocolatey.org/)
 
 [Install PowerShell Core 6](https://github.com/PowerShell/PowerShell/releases/tag/v6.2.2)
 
@@ -21,7 +22,7 @@ Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```
 
-### Install posh-git and oh-my-posh:
+### Install modules:
 
 ```bash
 Install-Module posh-git -Scope CurrentUser
@@ -32,6 +33,9 @@ Install-Module PSUtil -Scope CurrentUser
 Install-Module PSReadline -Scope CurrentUser
 Install-Module Get-ChildItemColor -Scope CurrentUser -AllowClobber
 ```
+
+### Install bat
+choco install bat (mode admin)
 
 ### Config hyperJS
 - Open HyperJS
