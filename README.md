@@ -2,13 +2,11 @@ My posh
 ==========
 [Install Chocolately](https://chocolatey.org/)
 
-[Install PowerShell Core 6](https://github.com/PowerShell/PowerShell/releases/tag/v6.2.2)
-
-[Install HyperJS](https://hyper.is/#installation)
-
-[Victor Mono](https://rubjo.github.io/victor-mono)
-
-- Victor Mono
+### Install packages with chocolatey (mode admin)
+choco install hype
+choco install powershell-core
+choco install cascadiacode 
+choco install bat
 
 ### Clone repository
 
@@ -33,9 +31,6 @@ Install-Module PSUtil -Scope CurrentUser
 Install-Module PSReadline -Scope CurrentUser
 Install-Module Get-ChildItemColor -Scope CurrentUser -AllowClobber
 ```
-
-### Install bat
-choco install bat (mode admin)
 
 ### Config hyperJS
 - Open HyperJS
