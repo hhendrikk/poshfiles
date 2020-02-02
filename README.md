@@ -3,10 +3,12 @@ My posh
 [Install Chocolately](https://chocolatey.org/)
 
 ### Install packages with chocolatey (mode admin)
+```bash
 choco install hype
 choco install powershell-core
 choco install cascadiacode 
 choco install bat
+```
 
 ### Clone repository
 
