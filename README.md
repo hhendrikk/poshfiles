@@ -6,7 +6,7 @@ My posh
 ```bash
 choco install hype
 choco install powershell-core
-choco install cascadiacode 
+choco install firacode 
 choco install bat
 ```
 
@@ -56,7 +56,7 @@ module.exports = {
     fontSize: 14,
 
     // font family with optional fallbacks
-    fontFamily: '"Cascadia Code"',
+    fontFamily: '"Fira Code"',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
