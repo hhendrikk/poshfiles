@@ -56,7 +56,7 @@ module.exports = {
     fontSize: 14,
 
     // font family with optional fallbacks
-    fontFamily: '"Victor Mono"',
+    fontFamily: '"Cascadia Code"',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
